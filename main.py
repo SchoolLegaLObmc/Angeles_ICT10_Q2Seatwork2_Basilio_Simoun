@@ -31,7 +31,7 @@ def process_input(event=None):
 
     name_first = (document.getElementById("name2").value or "").strip()
     name_last = (document.getElementById("name").value or "").strip()
-    display_name = name_first + name_last
+    display_name = name_first + "" + name_last
 
 
     subject = (english, math, ict, filipino, science, social_studies, pe, ve, TLE)
